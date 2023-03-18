@@ -5,7 +5,7 @@
 1. Masuk ke repository local yang akan di deploy, lalu login dengan `fly auth login`
 2. Buat token API dengan perintah `flyctl auth token`
 3. Buat repository di Github -> Setting -> Secret and variable -> actions
-4. Masukan token yang sudah dibuat di step ke 2 dan beri nama `FLY_AUTH_TOKEN`
+4. Masukan token yang sudah dibuat di step ke 2 dan beri nama `FLY_API_TOKEN`
 5. Jalankan perintah `flyctl launch`. Beri jawaban `N` untuk database dan jawaban `N` untuk deploy.
 6. buat file `.github/workflows/fly.yml` dengan isi konten
 
