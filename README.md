@@ -2,7 +2,7 @@
 
 ## How to deploy to [fly.io](https://fly.io/)
 
-1. Sign In ke [fly.io]https://fly.io/
+1. Sign In ke https://fly.io/
 2. Masuk ke repository local yang akan di deploy, lalu login dengan `fly auth login`.
 3. Buat token API dengan perintah `flyctl auth token`.
 4. Buat repository di Github -> Setting -> Secret and variable -> actions.
